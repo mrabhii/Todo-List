@@ -36,7 +36,7 @@ const page = () => {
           <button 
           onClick={()=>{
             deletehandler(i)
-          }} className='bg-blue-950 text-white px-4 py-2 font-bold rounded'>
+          }} className='bg-red-400 text-white px-4 py-2 font-bold rounded'>
             Delete
           </button>
         </li>)
@@ -46,7 +46,7 @@ const page = () => {
 
   return (
     <>
-      <h1 className='bg-red-400 text-white p-5 text-5xl font-bold text-center'>My Todo-List</h1>
+      <h1 className='bg-blue-950 text-white p-5 text-5xl font-bold text-center'>My Todo-List</h1>
       <form onSubmit={submitHandler}>
         <input type="text" className='text-2xl border-zinc-800 border-2 m-5 px-4 py-2' placeholder='Enter Title Here'
           value={title}
