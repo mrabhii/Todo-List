@@ -36,7 +36,7 @@ const page = () => {
           <button 
           onClick={()=>{
             deletehandler(i)
-          }} className='bg-red-400 text-white px-4 py-2 font-bold rounded'>
+          }} className='bg-blue-950 text-white px-4 py-2 font-bold rounded'>
             Delete
           </button>
         </li>)
